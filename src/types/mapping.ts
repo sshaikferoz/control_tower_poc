@@ -1,3 +1,4 @@
+import { WidgetMappingConfig } from '@/helpers/types';
 import React from 'react';
 import { Layout } from 'react-grid-layout';
 

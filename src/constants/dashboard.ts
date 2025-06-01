@@ -1,16 +1,16 @@
-import MultiMetrics from '@/widgets/MultiMetrics';
-import PieMetric from '@/widgets/PieMetric';
-import SimpleMetric from '@/widgets/SimpleMetric';
-import SimpleMetricDate from '@/widgets/SimpleMetricDate';
-import SingleLineChart from '@/widgets/SingleLineChart';
-import TableMetric from '@/widgets/TableMetric';
-import BarMetric from '@/widgets/BarMetric';
-import StackedBarChart from '@/widgets/StackedBarChart';
-import OrdersLineChart from '@/widgets/OrdersLineChart';
-import DualLineChart from '@/widgets/DualLineChart';
-import PieChartWithTotal from '@/widgets/PieChartWithTotal';
-import QuadrantMetrics from '@/widgets/QuadrantMetrics';
-import LoansAppTray from '@/widgets/LoansAppTray';
+import MultiMetrics from '@/components/Widgets/MultiMetrics';
+import PieMetric from '@/components/Widgets/PieMetric';
+import SimpleMetric from '@/components/Widgets/SimpleMetric';
+import SimpleMetricDate from '@/components/Widgets/SimpleMetricDate';
+import SingleLineChart from '@/components/Widgets/SingleLineChart';
+import TableMetric from '@/components/Widgets/TableMetric';
+import BarMetric from '@/components/Widgets/BarMetric';
+import StackedBarChart from '@/components/Widgets/StackedBarChart';
+import OrdersLineChart from '@/components/Widgets/OrdersLineChart';
+import DualLineChart from '@/components/Widgets/DualLineChart';
+import PieChartWithTotal from '@/components/Widgets/PieChartWithTotal';
+import QuadrantMetrics from '@/components/Widgets/QuadrantMetrics';
+import LoansAppTray from '@/components/Widgets/LoansAppTray';
 
 // Component mappings
 export const widgetMapping: Record<string, React.ComponentType<any>> = {

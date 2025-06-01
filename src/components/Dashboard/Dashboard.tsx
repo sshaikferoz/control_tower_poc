@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { CircularProgress, Typography, Snackbar, Alert } from '@mui/material';
 import 'primereact/resources/themes/lara-light-cyan/theme.css';
-import NewsFeed from '@/widgets/NewsFeed';
+import NewsFeed from '@/components/Widgets/NewsFeed';
 import { DashboardHeader } from './DashboardHeader';
 import { DashboardSection } from './DashboardSection';
 import { useDashboardData } from '@/hooks/useDashboardData';
